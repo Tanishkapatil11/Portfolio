@@ -11,21 +11,6 @@ This is a professional portfolio website for **Prof. Mohini Thorat**, currently 
 
 ---
 
-## 📁 Project Structure
-
-faculty-portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── profile-photo.jpg
-│   ├── Mohini_Thorat_CV.pdf
-│   ├── java-oop-exception.zip
-│   ├── machine-learning-concepts.pdf
-│   ├── java-oops-guide.pdf
-│   ├── data-computation-structure.zip
-│   └── fundamentals-of-programming.pdf
 
 ## 🚀 Features
 
