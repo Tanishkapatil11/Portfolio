@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Mohini Thorat - Portfolio</title>
+    <meta name="description" content="Portfolio of Prof. Mohini Thorat, Professor of Computer Engineering" />
+    <meta name="author" content="Prof. Mohini Thorat" />
+    <meta name="description" content="Portfolio of Prof. Mohini Thorat, Professor of Computer Engineering">
+    <meta name="author" content="Prof. Mohini Thorat">
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">Prof. Mohini Thorat</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#resources" class="nav-link">Resources</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-grid">
+                <!-- Left side - Text content -->
+                <div class="home-content">
+                    <div class="home-text">
+                        <h1 class="home-title">
+                            Prof.Mohini <span class="gradient-text">Thorat</span>
+                        </h1>
+                        <h2 class="home-subtitle">Professor of Computer Engineering</h2>
+                        <div class="home-meta">
+                            <div class="meta-item">
+                                <span class="meta-icon">📍</span>
+                                <span>JSPM's JSCOE</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-icon">✉️</span>
+                                <span>Available for collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="home-description">
+                        Experienced academic and data professional with a background in Power BI development, data analysis, 
+    and machine learning. Passionate about teaching, mentoring, and guiding students through real-world 
+    applications of computer engineering and data science.
+                    </p>
+
+                    <div class="home-buttons">
+                        <a class="btn btn-primary" href="assets/Mohini_Thorat_CV.pdf" download>
+                          <span class="btn-icon">⬇</span>
+                          <span>Download CV</span>
+                        </a>
+
+                        <button class="btn btn-accent" onclick="scrollToContact()">
+                            Get in Touch
+                        </button>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years in Industry</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Courses Taught</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Students Mentored</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side - Profile photo -->
+                <div class="home-image">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <img src="assets/Profile_Photo.jpg" alt="Prof.Mohini Thorat" class="profile-photo">
+                        <div class="profile-info">
+                            <h3 class="profile-name">Prof.Mohini Thorat</h3>
+                            <p class="profile-title">Professor & Researcher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-description">
+                    Dedicated to advancing the field of computer engineering through innovative research, 
+                    excellent teaching, and meaningful collaboration with students and colleagues.
+                </p>
+            </div>
+
+            <!-- Academic Background -->
+            <div class="content-card">
+                <h3 class="card-title">Academic & Industry Background</h3>
+                <div class="card-content">
+                    <p>
+                        I am currently a Professor in the Department of Computer Engineering at JSPM's JSCOE. Before joining academia, 
+    I worked as a Software Developer at Provana India Pvt. Ltd., where I developed data-driven dashboards and 
+    analytical tools using DAX, SQL Server, DS Developer and Power BI for business intelligence solutions.
+                    </p>
+                    <p>
+                        My interests lie at the intersection of data science and education — empowering students with 
+    practical knowledge in data analytics, business intelligence, and emerging technologies.
+                    </p>
+                  
+                    <p>
+                        Beyond research, I am passionate about education and have developed several innovative 
+                        courses that integrate cutting-edge research with practical applications, preparing 
+                        students for the rapidly evolving tech landscape.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Achievement Cards -->
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🎓</div>
+                        <h3 class="achievement-title">Education</h3>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>M.Tech in Mathematical Modelling & Simulation - Savitribai Phule Pune University</li>
+<li>B.E. in Computer Engineering - Trinity Academy of Engineering, Pune</li>
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">🏆</div>
+                        <h3 class="achievement-title">Skills</h3>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Data Analytics, Machine Learning, Artificial Intelligence</li>
+<li>Power BI, Power Query, DAX</li>
+<li>SQL Server, SSIS, SSMS</li>
+<li>Python, DBMS, ETL, Data Visualization</li>
+<li>Curriculum Student Cordinator, Student Mentorship, Research Guidance</li>
+
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">📚</div>
+                        <h3 class="achievement-title">Research Interests</h3>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Artificial Intelligence & Machine Learning</li>
+                        <li>Computer Vision & Image Processing</li>
+                        <li>Data Science & Deep Learning</li>
+                        <li>Business Intelligence & Data Visualization</li>
+                    </ul>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-header">
+                        <div class="achievement-icon">👥</div>
+                        <h3 class="achievement-title">Projects</h3>
+                    </div>
+                    <ul class="achievement-list">
+                        <li><strong>Call Reporting Dashboard</strong> – Built using ML for sentiment analysis, predictive analytics, and real-time agent monitoring.</li>
+<li><strong>Financial Reporting Dashboard</strong> – Power BI dashboard for finance KPIs using DAX, bookmarks, filters, and maps.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Teaching Philosophy -->
+            <div class="content-card philosophy-card">
+                <h3 class="card-title">Teaching Philosophy</h3>
+                <blockquote class="philosophy-quote">
+                    "I believe that the best learning happens when students are challenged to think critically, 
+                    collaborate meaningfully, and apply their knowledge to solve real-world problems. My role 
+                    is not just to transfer knowledge, but to inspire curiosity and foster the next generation 
+                    of innovative engineers."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section resources-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resources</h2>
+                <p class="section-description">
+                    Access my latest research papers, course materials, and educational resources.
+                </p>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3 class="category-title">📝 PPL</h3>
+                    <div class="resource-list">
+
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Fundamentals of Programming</h4>
+                                <p class="resource-description">Beginner-friendly guide to programming basics, including variables, control flow, and functions.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Fun-of-Prog.pptx">Download PPT</a>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Multithreading in Java – Concepts and Hands-On Guide</h4>
+                                <p class="resource-description">Detailed notes and examples covering threads, synchronization, and concurrency control in Java.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Multithreading.pptx">Download PPT</a>
+                        </div>
+
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Functional and Logical Programming – Concepts and Applications</h4>
+                                <p class="resource-description">Introduction to declarative programming paradigms with examples in Haskell and Prolog.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Logical-Functional.pptx">Download PPT</a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3 class="category-title">📚 Course Materials</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Java as an Object-Oriented Programming Language</h4>
+                                <p class="resource-description">A structured guide to understanding Java as a pure object-oriented language.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Java.pptx">Download PPT</a>
+                        </div>
+
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Inheritance, Packages, and Exception Handling Using Java</h4>
+                                <p class="resource-description">Inheritance, package structuring, and handling runtime exceptions using try-catch and custom exception classes.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/OOPS.pptx">Download PPT</a>
+                        </div>
+
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Structuring the Data, Computations, and Program</h4>
+                                <p class="resource-description">Explains best practices for organizing data structures, designing computation flows, and writing modular.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Structuring_data.pptx">Download PPT</a>
+                        </div>
+
+                        <!-- <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Inheritance, Packages, and Exception Handling Using Java</h4>
+                                <p class="resource-description">Inheritance, package structuring, and handling runtime exceptions using try-catch and custom exception classes.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/OOPS.pptx">Download PPT</a>
+                        </div> -->
+
+                        <!-- <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Java as an Object-Oriented Programming Language</h4>
+                                <p class="resource-description">A structured guide to understanding Java as a pure object-oriented language, covering key OOP principles like encapsulation, inheritance, polymorphism, abstraction, and how they're implemented in real-world Java programs.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/Java.pptx">Download PPT</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3 class="category-title">🔬 Machine Learning</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Introduction to Machine Learning Concepts and Applications</h4>
+                                <p class="resource-description">An in-depth overview of core machine learning concepts, including supervised and unsupervised learning, model evaluation, and real-world applications across industries like finance, healthcare, and customer analytics.</p>
+                            </div>
+                            <a class="btn btn-outline" href="assets/ML.pptx">Download PPT</a>
+                        </div>
+
+                        <!-- <div class="resource-item">
+                            <div class="resource-info">
+                                <h4 class="resource-title">Computer Vision Lab Experiments</h4>
+                                <p class="resource-description">12 hands-on experiments with detailed instructions</p>
+                            </div>
+                            <button class="btn btn-outline" onclick="downloadResource('lab2')">Download PDF</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-description">
+                    I'm always open to discussing research collaborations, speaking opportunities, 
+                    or any questions about my work and courses.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>thoratmohini573@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 8208535747</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🏢</div>
+                        <div class="contact-details">
+                            <h4>Office</h4>
+                            <p>Computer Department<br>JSPM's JSCOE<br>Hadapsar, Pune - 411028</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h4>Office Hours</h4>
+                            <p>Monday - Friday<br>9:00 PM - 4:00 PM</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3 class="form-title">Send a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" name="subject" class="form-input" required>
+                                <option value="">Select a subject</option>
+                                <option value="research">Research Collaboration</option>
+                                <option value="speaking">Speaking Opportunity</option>
+                                <option value="student">Student Inquiry</option>
+                                <option value="media">Media Interview</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-input" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span class="btn-icon">📤</span>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2024 Prof. Mohini Thorat. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <p>Professor of Computer Engineering, JSPM's JSCOE</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
+    <script src="script.js"></script>
+</body>
+</html>
